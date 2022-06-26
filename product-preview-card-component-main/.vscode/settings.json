@@ -1,0 +1,7 @@
+{
+    "git.ignoreLimitWarning": true,
+    "files.associations": {
+        "*.html": "html"
+    },
+    "open-in-browser.default": "chrome"
+}
