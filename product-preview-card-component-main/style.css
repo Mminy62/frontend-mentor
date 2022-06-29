@@ -1,41 +1,66 @@
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
-
-
+/* 
+hsl(158, 36%, 37%) // green */
 body {
     background-color: hsl(30, 38%, 92%);
-    width: 1440px;
-    height: 800px;
+    width: 100%;
+    /* width: 1440px;
+    height: 800px; */
 
   }
+
+.container{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
 
 .paragraph{
     width: 600px;
     height: 450px;
-    background-color: white;
     border-radius: 3%;
+    display: flex;
+    justify-content: center;
 
 }
 
-img{
+.p_img{
     float: left;
     width: 300px;
     height: 450px;
-    margin-right: 20px;
+    
     border-top-left-radius: 3%;
     border-bottom-left-radius: 3%;
+    
 }
 
 .description{
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
    
 }
 
 .category{
-     color : gray;
+     color : hsl(228, 12%, 48%);
      font-size: 14px;
      font-family: 'Montserrat', sans-serif;
      font-weight: 500;
+     margin-top: 25px;
+     
+
 }
 .p_title{
     font-family: 'Fraunces', serif;
@@ -43,10 +68,61 @@ img{
 }
 
 .p_body{
-    color : gray;
+    color : hsl(228, 12%, 48%);
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    line-height: 160%;
 }
 
+button{
+    width: 250px;
+    height:50px;
+    background-color: hsl(158, 36%, 37%); /* Green */
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
 
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.cart{
+    width: 14px;
+    height: 14px;
+}
+
+.price{
+    margin-top:20px;
+    height: 40px;
+    
+}
+
+.p_149{
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif; 
+    font-weight: 700;
+    font-size: 35px; 
+
+    line-height: 40px;
+    vertical-align: middle; 
+
+
+}
+.p_169{
+    
+    color:hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-decoration: line-through;
+
+    line-height: 40px;
+    vertical-align: middle;
+    margin-left: 20px;
+
+}
