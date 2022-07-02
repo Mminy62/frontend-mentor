@@ -1,0 +1,76 @@
+body{
+    background-color: hsl(27, 66%, 92%);
+    /* height:100%; */
+}
+
+.title_box{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 15px;
+    width:400px;
+    height:100px;
+}
+
+.t_paragraph{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.t_char{
+    height: 50px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: white;
+    padding-left: 10px;
+}
+
+.t_num{
+    height: 50px;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+    color: white;
+    padding-left: 10px;
+
+}
+
+.img1{
+    /* line-height: 40px; */
+    /* # logo vertical-align: middle 먹이는 과정;
+    parent에 line-height 먹여서 child 인 logo에 vertical-align:middle 하려고 했더니 잘 안됨. */
+    height: 100px;
+    margin: 30px;
+}
+
+.logo{
+    float: right;
+    width: auto;
+    height: 40px;
+    padding-left: 140px;
+    align-items: center;
+    /* vertical-align: middle;  */
+
+}
+
+.b_section{
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    
+    margin-top: 20px;
+   
+}
+
+.b_title{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+    color: hsl(25, 47%, 15%);
+}
